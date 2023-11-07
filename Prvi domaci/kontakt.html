@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	    <title>Kontakt</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="assets/style/text.css">
+</head>
+<body>
+
+    <header>
+        <h1>Prvi samostalni zadatak - kontakt stranica</h1>
+    </header>
+    
+    <div class="wrapper">
+        <nav>
+            <ul>
+                <li><a href="pocetna.html">Početna</a></li>
+                <li><a href="obrazovanje.html">Obrazovanje</a></li>
+				<li><a href="#">Karijera</a></li>
+                <li><a href="#">Hobiji</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+        
+        <h4>Kontakt forma</h4>
+
+		<div class="contact-container">
+			<form action="submit_form.php" method="POST">
+				<label for="name">Ime:</label>
+				<input type="text" id="name" name="name" required>
+				
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+				
+				<label for="message">Poruka:</label>
+				<textarea id="message" name="message" required></textarea>
+				
+				<button type="submit">Pošalji</button>
+			</form>
+		</div>
+	
+	</div>
+    
+</body>
+
+<footer>
+	<p>@2805 - Ekonomski fakultet - Irina Đokić</p>
+</footer>
+
+</html>
